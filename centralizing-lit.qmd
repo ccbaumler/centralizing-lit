@@ -1,0 +1,970 @@
+---
+title: "Staying Current with the Journals"
+subtitle: "Capture Current Literature of a Scientific domain with RSS"
+format: 
+  revealjs:
+    theme: custom-dark.scss
+    css: timer.css
+    preview-links: true
+    incremental: true
+    chalkboard: 
+      buttons: false
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: true
+    auto-animate-duration: 0.8
+from: markdown+emoji
+author: 
+  - name: Colton Baumler
+    orcid: 0000-0002-5926-7792
+    email: ccbaumler@ucdavis.edu
+    affiliations: University of California, Davis
+  - name: Bryshal Moore
+    email: brymoore@ucdavis.edu
+    affiliations: University of California, Davis
+date: last-modified
+date-format: "dddd, [the] D[<sup style='font-size:65%;font-style:italic;'>th</sup>] [of] MMMM, YYYY"
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+
+# Overview
+
+::: {.notes}
+
+Add google scholar alerts, pubmed alerts, arxiv alerts with killthenewsletter
+https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en
+
+Backward design for teaching - "What do you want the audience to take away?"
+
+- Basics of RSS
+  - Understand the basics of what rss is
+  - How to find rss feeds and add to a reader 
+  - Functionality of a RSS reader I like
+  - Techniques I like with RSS readers
+  
+:::
+
+::: nonincremental
+::: columns
+::: {.column width="50%"}
+-   Background
+
+-   Install and Set Up
+:::
+
+::: {.column width="50%"}
+-   Suggested Usage
+
+-   Techniques for Success
+:::
+:::
+:::
+
+# Background
+
+::: {.nonincremental}
+- The fundamentals of RSS
+- The application to use
+:::
+
+::: notes
+WoS query: ("RDF Site Summary") OR ("Really Simple Syndication") OR ("RSS FEEDS") OR ("Rich Site Summary") Keywords: https://en.wikipedia.org/wiki/RSS
+:::
+
+## What is RSS?
+
+### Background
+
+- What does RSS stand for?
+    
+    - Conflicting accounts!
+    - **[R]{.underline}**eally **[S]{.underline}**imple **[S]{.underline}**yndication
+    - **[R]{.underline}**ich **[S]{.underline}**ite **[S]{.underline}**ummary
+    - **[R]{.underline}**DF **[S]{.underline}**ite **[S]{.underline}**ummary
+
+- What ***is*** RSS though?
+    
+    - Set of technical standards
+      - A standard, computer-readable format
+    - Written in extensible mark-up language (XML)
+    - Storing and sending data through the internet
+
+## [Why use an RSS reader (AKA News aggregator)?]{style="font-size:0.80em;"}
+
+### Background
+
+The day an important article is published you will be able to find it!
+
+- Single concentrated reference point
+  - Track **many** different websites
+  - Regular updates (~1-6hrs)
+  - Convenient 
+    - Desktop
+    - Mobile
+    - Web
+
+## Too many software options!!!
+
+### Background
+
+There are dozens of notable RSS readers. 
+
+All have a pay-tier system.
+
+- I suggest Inoreader
+  
+  - Most useful options at unpaid subscription 
+    - Compatible with IOS, Andriod, and the Web
+    - Organizing with folders and tags 
+    - Highlighting keywords 
+    - Ability to search 
+
+# Install and Set Up
+
+::: {.nonincremental}
+- Install Inoreader
+- Find academic journal feeds
+- Organize feeds
+:::
+
+## Create an account
+
+### Install and Set Up
+
+::: nonincremental
+1.  Go to [Inoreader](https://www.inoreader.com/)
+:::
+
+![](images/inoreader-1.png){.absolute top="400" left="200" width="600"}
+
+## Create an account
+
+### Install and Set Up
+
+::: nonincremental
+1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
+2.  Select `Sign-in`
+:::
+
+![](images/inoreader-2.png){.absolute top="400" left="200" width="600"}
+
+## Create an account
+
+### Install and Set Up
+
+::: nonincremental
+1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
+2.  [Select `Sign-in`]{.op}
+3.  Select `create a free account`
+:::
+
+![](images/inoreader-3.png){.absolute top="400" left="200" width="600"}
+
+## Create an account
+
+### Install and Set Up
+
+::: nonincremental
+1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
+2.  [Select `Sign-in`]{.op}
+3.  [Select `create a free account`]{.op}
+4.  Select `Create account`
+:::
+
+![](images/inoreader-5.png){.absolute top="400" left="200" width="600"}
+
+## Download the app
+
+### Install and Set Up
+
+- Click the OS below
+  - Portability
+  - Retains marked articles offline
+
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+  <svg width="500" height="200">
+    <a href="https://play.google.com/store/apps/details?id=com.innologica.inoreader&pcampaignid=web_share">
+      <rect x="10" y="10" width="480" height="180" rx="10" ry="10" fill="blue" />
+      <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">Android</text>
+    </a>
+  </svg>
+</div>
+
+<div class="col">
+  <svg width="500" height="200">
+    <a href="https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414">
+      <rect x="10" y="10" width="480" height="180" rx="10" ry="10" fill="red" />
+      <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">IOS</text>
+    </a>
+  </svg>
+</div>
+
+</div>
+
+
+## Curate feeds
+
+### Install and Set Up
+
+::: columns
+::: {.column width="45%"}
+1.  Select `Add new`
+:::
+
+::: {.column width="55%"}
+![](images/feed-1.gif){.absolute top="125" left="475" width="700"}
+:::
+:::
+
+## Curate feeds
+
+### Install and Set Up
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  Select `Feeds`
+:::
+:::
+
+::: {.column width="55%"}
+![](images/feed-2.gif){.absolute top="125" left="475" width="700"}
+:::
+:::
+
+## Curate feeds
+
+### Install and Set Up
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  [Select `Feeds`]{.op}
+3.  Search a topic, website, or journal
+:::
+:::
+
+::: {.column width="55%"}
+![](images/feed-3.gif){.absolute top="125" left="475" width="700"}
+:::
+:::
+
+## Curate feeds
+
+### Install and Set Up
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  [Select `Feeds`]{.op}
+3.  [Search a topic, website, or journal]{.op}
+4.  Select `Follow` from the feed suggestions
+:::
+:::
+
+::: {.column width="65%"}
+![](images/feed-4-123.gif){.absolute top="125" left="475" width="700"}
+:::
+:::
+
+## Gather Feeds
+
+### Install and Set Up
+
+::: notes
+Use nature (rss feed), science (rss symbol), and biorxiv (specific set up) as examples
+:::
+
+```{ojs}
+//| echo: false
+//| output: false
+document.getElementById("userInput").addEventListener("input", function() {
+  let userInput = this.value;
+  let words = userInput.split(" ");
+  
+  let output = "";
+  words.forEach(word => {
+    output += `<li>${word}</li>`;
+  });
+  
+  document.getElementById("outputText").innerHTML = `<ul>${output}</ul>`;
+});
+```
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 8, seconds = 0, warn_when = 120, 
+                     right = "0%", top = "0%",
+                     blink_colon = TRUE, id = "special_timer")
+```
+
+::: columns
+::: {.column width="37.5%"}
+-   Journal options
+
+    -   [List of Journals](https://listofjournals.com/)
+    -   [Wiki of Journals](https://en.wikipedia.org/wiki/List_of_scientific_journals)
+    -   [The NIH Library](https://www.nihlibrary.nih.gov/) + click `Journals`
+    -   [No RSS found?](https://openrss.org/)
+:::
+
+::: {.column width="37.5%"}
+-   Finding the RSS link
+
+    -   [RSS Validator](https://www.rssboard.org/rss-validator)
+    -   Navigate to the website:
+        -   Right click page
+        -   Select `Page Source`
+        -   Press `ctrl+f` or `cmd+f`
+        -   Type `rss`
+:::
+
+::: {.column width="25%"}
+::: interactive-textbox
+<input type="text" id="userInput" placeholder="Type some ideas...">
+
+<p id="outputText">
+
+</p>
+:::
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Create
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  Select `Add new`
+:::
+:::
+
+::: {.column width="65%"}
+![](images/folder-1.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Create
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  Select `Folders`
+:::
+:::
+
+::: {.column width="65%"}
+![](images/folder-2.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Create
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  [Select `Folders`]{.op}
+3.  Name `New Folder`
+:::
+:::
+
+::: {.column width="65%"}
+![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Create
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  [Select `Folders`]{.op}
+3.  [Name `New Folder`]{.op}
+4.  Search feeds
+:::
+:::
+
+::: {.column width="65%"}
+![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Create
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select `Add new`]{.op}
+2.  [Select `Folders`]{.op}
+3.  [Name `New Folder`]{.op}
+4.  [Search feeds]{.op}
+5.  Select feeds to add
+:::
+:::
+
+::: {.column width="65%"}
+![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  Select :gear:
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-1.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select :gear:]{.op}
+2.  Select folders dropdown
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-2.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select :gear:]{.op}
+2.  [Select folders dropdown]{.op}
+3.  Select `Without folder`
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-2.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select :gear:]{.op}
+2.  [Select folders dropdown]{.op}
+3.  [Select `Without folder`]{.op}
+4.  Select feeds
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select :gear:]{.op}
+2.  [Select folders dropdown]{.op}
+3.  [Select `Without folder`]{.op}
+4.  [Select feeds]{.op}
+5.  Select `with selected` dropdown
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Organize with folders
+
+### Install and Set Up
+
+Add to existing
+
+::: columns
+::: {.column width="45%"}
+::: nonincremental
+1.  [Select :gear:]{.op}
+2.  [Select folders dropdown]{.op}
+3.  [Select `Without folder`]{.op}
+4.  [Select feeds]{.op}
+5.  [Select `with selected` dropdown]{.op}
+6.  Add to existing folder
+:::
+:::
+
+::: {.column width="65%"}
+![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
+:::
+:::
+
+## Make the folders
+
+### Install and Set Up
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
+                     right = "0%", top = "0%",
+                     blink_colon = TRUE, id = "special_timer")
+```
+
+::: columns
+::: {.column width="75%"}
+-   Consider grouping journals categories:
+
+    -   Broad, high-impact factor
+    -   Topics
+    -   Time span they publish
+    -   Preprints
+:::
+
+::: {.column width="25%"}
+::: interactive-textbox
+<input type="text" id="userInput2" placeholder="Type some ideas...">
+
+<p id="outputText2">
+
+</p>
+:::
+:::
+:::
+
+```{ojs}
+//| echo: false
+//| output: false
+document.getElementById("userInput2").addEventListener("input", function() {
+  let userInput2 = this.value;
+  let words = userInput2.split(" ");
+  
+  let output = "";
+  words.forEach(word => {
+    output += `<li>${word}</li>`;
+  });
+  
+  document.getElementById("outputText2").innerHTML = `<ul>${output}</ul>`;
+});
+```
+
+# Suggested Usage
+
+::: {.nonincremental}
+- The functionality of Inoreader
+:::
+
+## [Highlighting keywords for efficient literature discovery]{style="font-size:0.80em;"}
+
+### Suggested Usage
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE, id = "special_timer")
+```
+
+::: columns
+::: {.column width="30%"}
+[`AUTOMATION`]{.smaller}
+
+-   [Assign color to keywords]{.smaller}
+    -   [**Trouble? Try asking ChatGPT for a list:**]{.smaller}
+        -   [What are keywords for \[microbial metagenomic metabolomic metabolite cancer\] research?]{.smaller}
+        -   [Please expand this list further. (Generic or with direction...)]{.smaller}
+:::
+
+::: {.column width="70%"}
+```{=html}
+<iframe width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter"></iframe>
+```
+:::
+:::
+
+## Tags articles to organize and recall
+
+### Suggested Usage
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE, id = "special_timer")
+```
+
+::: notes
+-   Like the `Read later` category
+:::
+
+`Library`
+
+-   Tag with keywords like:
+    -   Topics: ProjectName, QE, Grant
+    -   Content: Video, peer, opinion, review
+    -   Resources: Github, scripts, references
+    -   Priority: High, medium, low
+
+## [Navigating literature blazingly fast with keybindings]{style="font-size:0.80em;"}
+
+### Suggested Usage
+
+::: columns
+::: {.column width="20%"}
+`h` or `?` for keybindings
+:::
+
+::: {.column width="80%"}
+```{=html}
+<iframe width="780" height="500" src="images/hotkeys.html" title="Inoreader hotkeys"></iframe>
+```
+:::
+:::
+
+## [Navigating literature blazingly fast with keybindings]{style="font-size:0.80em;"}
+
+### Suggested Usage
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE, id = "special_timer")
+```
+
+::: columns
+::: {.column width="75%"}
+Below are some suggestions to speed-up your usage:
+
+-   [`n`, `p` or with `shift`: navigate the articles or side-bar]{.smaller}
+-   [`j`, `k` : navigate the Article view or `space`: to scroll through the abstract]{.smaller}
+-   [`m`, `f`: mark the articles as read or read later]{.smaller}
+-   [`1`, `3`: change views from list to cards]{.smaller}
+-   **What are some you liked using?**
+:::
+
+::: {.column width="25%"}
+::: interactive-textbox
+<input type="text" id="userInput3" placeholder="Type some ideas...">
+
+<p id="outputText3">
+
+</p>
+:::
+:::
+:::
+
+```{ojs}
+//| echo: false
+//| output: false
+document.getElementById("userInput3").addEventListener("input", function() {
+  let userInput3 = this.value;
+  let words = userInput3.split(" ");
+  
+  let output = "";
+  words.forEach(word => {
+    output += `<li>${word}</li>`;
+  });
+  
+  document.getElementById("outputText3").innerHTML = `<ul>${output}</ul>`;
+});
+```
+
+## Search the feeds for rapid re/discovery
+
+### Suggested Usage
+
+::: columns
+::: {.column width="50%"}
+Located at:
+
+-   Upper right-hand :mag:
+-   `Add new` [`r knitr::asis_output("\U1F896")`]{.arrow} `Articles`
+:::
+
+::: {.column width="50%"}
+Straight-forward operation:
+
+-   Search articles in feeds, folder, or tags
+-   Use boolean operators
+    -   `AND`
+    -   `OR`
+    -   `NOT`
+    -   `""`
+    -   `()`
+:::
+:::
+
+::: notes
+Boolean operators are terms used to combine or exclude keywords in search queries to narrow down or broaden search results in a search engine. They are words like "AND," "OR," and "NOT" that help refine the search by specifying relationships between keywords.
+
+```         
+AND: Narrows down the search by requiring both terms to be present in the results. For example, searching for "cats AND dogs" will return results that mention both cats and dogs.
+
+OR: Broadens the search, returning results that include either one or both of the specified terms. Searching for "cats OR dogs" will retrieve results mentioning either cats or dogs or both.
+
+NOT: Excludes specific terms from the search results. For instance, searching for "cats NOT dogs" will display results related to cats but exclude any that mention dogs.
+```
+
+These operators are useful for making searches more precise and tailored to your needs by including, excluding, or combining keywords in various ways.
+:::
+
+# Techniques for Success
+
+::: {.nonincremental}
+- Quickly sort articles from feeds
+- Time management and blocking
+- Stay on task throughout time
+:::
+
+## The 80:20 method is ideal to filter papers
+
+### Techniques for Success
+
+::: columns
+::: {.column width="35%"}
+- 80:20? 
+  - Remove 20% each step
+  
+- Remember IMRaD?
+  - RSS reader/web until "ID"
+  - Import into reference manager
+  - "**[I]{.underline}**'**[D]{.underline}** **[M]{.underline}**embe**[R]{.underline}**" better
+:::
+
+::: {.column width="65%"}
+```{mermaid}
+%%| echo: false
+
+%%{init: {
+  "theme": "dark",
+  "themeCSS": ".edgeLabel { background-color: blue !important; }"
+}}%%
+
+flowchart TD;
+    A[Read the title] ==>|Interesting?| B[Skim the abstract];
+    A ==Not interesting?==> C[Discard];
+    B ==Still interesting?==> D[Skim the section headers and figures];
+    B ==Second thoughts?==> C;
+    D ==A worthwhile read?==> E[Read the Intro and Discussion!];
+    D ==Reconsidering?==> C;
+    E ==Something novel?==> F[Study the article by reviewing the Methods and Results];
+    E ==Meh?==> C;
+    F ==Good stuff cited?==> G[Dig into the references]
+
+    linkStyle 0,1,2,3,4,5,6,7,8 color:Orange,stroke:blue;
+```
+:::
+:::
+
+::: notes
+https://github.com/quarto-dev/quarto-cli/issues/2165
+
+https://stackoverflow.com/questions/63082398/change-font-of-text-on-links-in-graph-mermaid
+:::
+
+## [Mindfully approach time management for best results!]{style="font-size:0.80em;"}
+
+### Techniques for Success
+
+::: columns
+
+:::: {.column width="25%"}
+
+- Consider time blocking
+  - When do you work best?
+  - 3-2-1 method
+
+::::
+
+:::: {.column width="75%"}
+
+```{mermaid}
+%%| echo: false
+
+%%{init: {
+  "theme": "dark",
+  "themeCSS": ".sectionTitle:not([font-size]), .sectionTitle[font-size] { font-size:16px; }, .taskText:not([font-size]), .taskText[font-size] { font-size:15px; }, .taskTextOutsideRight:not([font-size]), .taskTextOutsideRight[font-size] { font-size:16px; }"
+}}%%
+
+gantt 
+    title The Pomodora Method: One Set
+    dateFormat hh:mm
+    axisFormat %H%M
+    
+    section A Task
+    Set timer : done, milestone, 09:00, 0min
+    Work : active, 25min
+    Timer goes off: done, milestone, 09:25, 0min
+    Break time! : 5min
+    Set timer : done, milestone, 09:30, 0min
+    Work : active, 25min
+    Timer goes off: done, milestone, 09:55, 0min
+    Break time! : 5min
+    Set timer : done, milestone, 10:00, 0min
+    Work : active, 25min
+    Timer goes off: done, milestone, 10:25, 0min
+    Break time! : 5min
+    Set time : done, milestone, 10:30, 0min
+    Work : active, 25min
+    Timer goes off: done, milestone, 10:55, 0min
+    Long Break!! : 30min
+```
+
+::::
+
+:::
+
+## Achievable goals lead to accomplishments
+
+### Techniques for Success
+
+-   Set aside 5-10 minutes at the end of the day
+
+-   list out 3-6 tasks to be done the following day
+
+-   order them from highest to least priority
+
+-   next day start the list
+
+-   finished the list item?
+
+    -   move on
+
+-   when you need to change gears
+
+    -   move on
+
+# Summary {.smaller}
+
+You have learned:
+
+::: {.nonincremental}
+- RSS and Readers
+  - The fundamentals of RSS
+  - The application to use
+- Inoreader
+  - Install Inoreader
+  - Find academic journal feeds
+  - Organize feeds
+  - The functionality of Inoreader
+- Skills to rapidly consume literature
+  - Quickly sort articles from feeds
+  - Time management and blocking
+  - Stay on task throughout time
+
+:::
+
+## Acknowledgments
+
+### "The next best thing to being wise oneself is to live in a circle of those who are."<br>C.S. Lewis
+
+::: nonincremental
+-   C. Titus Brown
+-   Pamela Reynolds
+-   Bryshal Moore
+-   Luiz Irber
+-   DIB Lab members
+-   DataLab members
+:::
+
+```{css, echo=FALSE}
+.interactive-textbox {
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#outputText {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#outputText2 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#outputText3 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+```
