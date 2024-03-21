@@ -67,32 +67,45 @@ Backward design for teaching - "What do you want the audience to take away?"
 
 ::: {.nonincremental}
 - The fundamentals of RSS
-- The application to use
+  - What is RSS?
+  - Why use RSS?
+  - Which RSS to use?
 :::
 
 ::: notes
 WoS query: ("RDF Site Summary") OR ("Really Simple Syndication") OR ("RSS FEEDS") OR ("Rich Site Summary") Keywords: https://en.wikipedia.org/wiki/RSS
 :::
 
-## What is RSS?
+## RSS is a web-based aggregation tool
 
 ### Background
 
+::: {.columns}
+
+:::: {.column width="50%"}
 - What does RSS stand for?
     
     - Conflicting accounts!
-    - **[R]{.underline}**eally **[S]{.underline}**imple **[S]{.underline}**yndication
-    - **[R]{.underline}**ich **[S]{.underline}**ite **[S]{.underline}**ummary
-    - **[R]{.underline}**DF **[S]{.underline}**ite **[S]{.underline}**ummary
+      - **[R]{.underline}**eally **[S]{.underline}**imple **[S]{.underline}**yndication
+      - **[R]{.underline}**ich **[S]{.underline}**ite **[S]{.underline}**ummary
+      - **[R]{.underline}**DF **[S]{.underline}**ite **[S]{.underline}**ummary
+    - RSS $\equiv$ a website feed aggregator
+::::
 
+:::: {.column width="50%"}
 - What ***is*** RSS though?
     
     - Set of technical standards
       - A standard, computer-readable format
     - Written in extensible mark-up language (XML)
-    - Storing and sending data through the internet
+    - For storing and sending data through the internet
+::::
 
-## [Why use an RSS reader (AKA News aggregator)?]{style="font-size:0.80em;"}
+:::
+
+[A self-updating scientific journal website aggregation system]{.fragment}
+
+## [An RSS aggregator will centralize all feeds across devices]{style="font-size:0.80em;"}
 
 ### Background
 
@@ -106,13 +119,13 @@ The day an important article is published you will be able to find it!
     - Mobile
     - Web
 
-## Too many software options!!!
+## Too many software options!!! (ie Choice paralysis)
 
 ### Background
 
 There are dozens of notable RSS readers. 
 
-All have a pay-tier system.
+[All have a pay-tiered system.]{.fragment}
 
 - I suggest Inoreader
   
@@ -130,7 +143,7 @@ All have a pay-tier system.
 - Organize feeds
 :::
 
-## Create an account
+## Create an account {data-menu-title="Create an account: Step 1"}
 
 ### Install and Set Up
 
@@ -140,7 +153,7 @@ All have a pay-tier system.
 
 ![](images/inoreader-1.png){.absolute top="400" left="200" width="600"}
 
-## Create an account
+## Create an account {data-menu-title="Create an account: Step 2"}
 
 ### Install and Set Up
 
@@ -151,7 +164,7 @@ All have a pay-tier system.
 
 ![](images/inoreader-2.png){.absolute top="400" left="200" width="600"}
 
-## Create an account
+## Create an account {data-menu-title="Create an account: Step 3"}
 
 ### Install and Set Up
 
@@ -163,7 +176,7 @@ All have a pay-tier system.
 
 ![](images/inoreader-3.png){.absolute top="400" left="200" width="600"}
 
-## Create an account
+## Create an account {data-menu-title="Create an account: Step 4"}
 
 ### Install and Set Up
 
@@ -215,8 +228,7 @@ All have a pay-tier system.
 
 </div>
 
-
-## Curate feeds
+## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 1"}
 
 ### Install and Set Up
 
@@ -230,7 +242,7 @@ All have a pay-tier system.
 :::
 :::
 
-## Curate feeds
+## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 2"}
 
 ### Install and Set Up
 
@@ -247,7 +259,7 @@ All have a pay-tier system.
 :::
 :::
 
-## Curate feeds
+## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 3"}
 
 ### Install and Set Up
 
@@ -265,7 +277,7 @@ All have a pay-tier system.
 :::
 :::
 
-## Curate feeds
+## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 4"}
 
 ### Install and Set Up
 
@@ -284,7 +296,7 @@ All have a pay-tier system.
 :::
 :::
 
-## Gather Feeds
+## Gather feeds to fit your research interests
 
 ### Install and Set Up
 
@@ -347,11 +359,9 @@ countdown::countdown(minutes = 8, seconds = 0, warn_when = 120,
 :::
 :::
 
-## Organize with folders
+## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 1"}
 
 ### Install and Set Up
-
-Create
 
 ::: columns
 ::: {.column width="45%"}
@@ -365,7 +375,7 @@ Create
 :::
 :::
 
-## Organize with folders
+## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 2"}
 
 ### Install and Set Up
 
@@ -384,7 +394,7 @@ Create
 :::
 :::
 
-## Organize with folders
+## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 3"}
 
 ### Install and Set Up
 
@@ -404,7 +414,7 @@ Create
 :::
 :::
 
-## Organize with folders
+## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 4"}
 
 ### Install and Set Up
 
@@ -425,7 +435,7 @@ Create
 :::
 :::
 
-## Organize with folders
+## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 5"}
 
 ### Install and Set Up
 
@@ -447,7 +457,7 @@ Create
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 1"}
 
 ### Install and Set Up
 
@@ -465,7 +475,7 @@ Add to existing
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 2"}
 
 ### Install and Set Up
 
@@ -484,7 +494,7 @@ Add to existing
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 3"}
 
 ### Install and Set Up
 
@@ -504,7 +514,7 @@ Add to existing
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 4"}
 
 ### Install and Set Up
 
@@ -525,7 +535,7 @@ Add to existing
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 5"}
 
 ### Install and Set Up
 
@@ -547,7 +557,7 @@ Add to existing
 :::
 :::
 
-## Organize with folders
+## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 6"}
 
 ### Install and Set Up
 
@@ -570,7 +580,7 @@ Add to existing
 :::
 :::
 
-## Make the folders
+## Make your folders for your feeds
 
 ### Install and Set Up
 
@@ -622,6 +632,10 @@ document.getElementById("userInput2").addEventListener("input", function() {
 
 ::: {.nonincremental}
 - The functionality of Inoreader
+  - Highlighting keywords
+  - Tagging system
+  - Rapid navigation
+  - Search the feeds
 :::
 
 ## [Highlighting keywords for efficient literature discovery]{style="font-size:0.80em;"}
