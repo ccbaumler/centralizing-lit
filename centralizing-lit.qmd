@@ -119,7 +119,7 @@ The day an important article is published you will be able to find it!
     - Mobile
     - Web
 
-## Too many software options!!! (ie Choice paralysis)
+## [Too many software options!!! (ie Choice paralysis)]{style="font-size:0.80em;"}
 
 ### Background
 
@@ -323,7 +323,7 @@ document.getElementById("userInput").addEventListener("input", function() {
 ```{r}
 #| echo: false
 countdown::countdown(minutes = 8, seconds = 0, warn_when = 120, 
-                     right = "0%", top = "0%",
+                     right = "0%", top = "10%",
                      blink_colon = TRUE, id = "special_timer")
 ```
 
