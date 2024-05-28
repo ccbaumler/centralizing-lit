@@ -5,13 +5,16 @@ format:
   revealjs:
     theme: custom-dark.scss
     css: timer.css
-    preview-links: true
+    preview-links: false
     incremental: true
     chalkboard: 
       buttons: false
     auto-animate-easing: ease-in-out
     auto-animate-unmatched: true
     auto-animate-duration: 0.8
+    menu:
+      side: right
+      width: half
 from: markdown+emoji
 author: 
   - name: Colton Baumler
@@ -40,8 +43,8 @@ https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en
 Backward design for teaching - "What do you want the audience to take away?"
 
 - Basics of RSS
-  - Understand the basics of what rss is
-  - How to find rss feeds and add to a reader 
+  - Understand the basics of what RSS is
+  - How to find RSS feeds and add to a reader 
   - Functionality of a RSS reader I like
   - Techniques I like with RSS readers
   
@@ -119,7 +122,7 @@ The day an important article is published you will be able to find it!
     - Mobile
     - Web
 
-## [Too many software options!!! (ie Choice paralysis)]{style="font-size:0.80em;"}
+## [Too many software options!!!]{style="font-size:0.80em;"}
 
 ### Background
 
@@ -129,7 +132,7 @@ There are dozens of notable RSS readers.
 
 - I suggest Inoreader
   
-  - Most useful options at unpaid subscription 
+  - Most useful options at unpaid subscription level are:
     - Compatible with IOS, Andriod, and the Web
     - Organizing with folders and tags 
     - Highlighting keywords 
@@ -148,7 +151,7 @@ There are dozens of notable RSS readers.
 ### Install and Set Up
 
 ::: nonincremental
-1.  Go to [Inoreader](https://www.inoreader.com/)
+1.  Go to [Inoreader](https://www.inoreader.com/){target="_blank"}
 :::
 
 ![](images/inoreader-1.png){.absolute top="400" left="200" width="600"}
@@ -189,13 +192,16 @@ There are dozens of notable RSS readers.
 
 ![](images/inoreader-5.png){.absolute top="400" left="200" width="600"}
 
-## Download the app
+## Optionally download the mobile app
 
 ### Install and Set Up
 
-- Click the OS below
+- Benefits
   - Portability
-  - Retains marked articles offline
+  - Interoperability
+  - Make doom scrolling productive
+
+[Click your operating system below:]{.fragment}
 
 <style>
 .container{
@@ -209,18 +215,18 @@ There are dozens of notable RSS readers.
 <div class="container">
 
 <div class="col">
-  <svg width="500" height="200">
-    <a href="https://play.google.com/store/apps/details?id=com.innologica.inoreader&pcampaignid=web_share">
-      <rect x="10" y="10" width="480" height="180" rx="10" ry="10" fill="blue" />
+  <svg width="500" height="175">
+    <a href="https://play.google.com/store/apps/details?id=com.innologica.inoreader&pcampaignid=web_share" target="_blank">
+      <rect x="10" y="10" width="480" height="160" rx="10" ry="10" fill="blue" />
       <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">Android</text>
     </a>
   </svg>
 </div>
 
 <div class="col">
-  <svg width="500" height="200">
-    <a href="https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414">
-      <rect x="10" y="10" width="480" height="180" rx="10" ry="10" fill="red" />
+  <svg width="500" height="175">
+    <a href="https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414" target="_blank">
+      <rect x="10" y="10" width="480" height="160" rx="10" ry="10" fill="red" />
       <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">IOS</text>
     </a>
   </svg>
@@ -331,21 +337,23 @@ countdown::countdown(minutes = 8, seconds = 0, warn_when = 120,
 ::: {.column width="37.5%"}
 -   Journal options
 
-    -   [List of Journals](https://listofjournals.com/)
-    -   [Wiki of Journals](https://en.wikipedia.org/wiki/List_of_scientific_journals)
-    -   [The NIH Library](https://www.nihlibrary.nih.gov/) + click `Journals`
-    -   [No RSS found?](https://openrss.org/)
+    -   [Wiki of Journals](https://en.wikipedia.org/wiki/List_of_scientific_journals){target="_blank"}
+    -   [The NIH Library](https://www.nihlibrary.nih.gov/){target="_blank"} + click `Journals`
+    -   ChatGPT: "what are the best journals for [bioinformatics] research?"
+    
 :::
 
 ::: {.column width="37.5%"}
 -   Finding the RSS link
 
-    -   [RSS Validator](https://www.rssboard.org/rss-validator)
+    -   [RSS Validator](https://www.rssboard.org/rss-validator){target="_blank"}
     -   Navigate to the website:
         -   Right click page
         -   Select `Page Source`
         -   Press `ctrl+f` or `cmd+f`
         -   Type `rss`
+    -   [No RSS found?](https://openrss.org/){target="_blank"}
+
 :::
 
 ::: {.column width="25%"}
@@ -362,6 +370,8 @@ countdown::countdown(minutes = 8, seconds = 0, warn_when = 120,
 ## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 1"}
 
 ### Install and Set Up
+
+Create
 
 ::: columns
 ::: {.column width="45%"}
@@ -672,6 +682,7 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 
 ```{r}
 #| echo: false
+#| eval: false
 countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
                      right = "0%", top = "10%",
                      blink_colon = TRUE, id = "special_timer")
@@ -816,13 +827,16 @@ These operators are useful for making searches more precise and tailored to your
   - "**[I]{.underline}**'**[D]{.underline}** **[M]{.underline}**embe**[R]{.underline}**" better
 :::
 
-::: {.column width="65%"}
+::: {.column width="65%" .absolute top=100 right=0}
 ```{mermaid}
 %%| echo: false
+%%| mermaid-format: png
 
 %%{init: {
-  "theme": "dark",
-  "themeCSS": ".edgeLabel { background-color: blue !important; }"
+  "theme": "base",
+  'themeVariables': {
+    'lineColor': 'blue'
+  }
 }}%%
 
 flowchart TD;
@@ -836,7 +850,7 @@ flowchart TD;
     E ==Meh?==> C;
     F ==Good stuff cited?==> G[Dig into the references]
 
-    linkStyle 0,1,2,3,4,5,6,7,8 color:Orange,stroke:blue;
+%%    linkStyle 0,1,2,3,4,5,6,7,8 color:Orange,stroke:blue;
 ```
 :::
 :::
@@ -865,9 +879,10 @@ https://stackoverflow.com/questions/63082398/change-font-of-text-on-links-in-gra
 
 ```{mermaid}
 %%| echo: false
+%%| mermaid-format: png
 
 %%{init: {
-  "theme": "dark",
+  "theme": "base",
   "themeCSS": ".sectionTitle:not([font-size]), .sectionTitle[font-size] { font-size:16px; }, .taskText:not([font-size]), .taskText[font-size] { font-size:15px; }, .taskTextOutsideRight:not([font-size]), .taskTextOutsideRight[font-size] { font-size:16px; }"
 }}%%
 
@@ -878,21 +893,21 @@ gantt
     
     section A Task
     Set timer : done, milestone, 09:00, 0min
-    Work : active, 25min
+    Work : 09:00, 09:25
     Timer goes off: done, milestone, 09:25, 0min
     Break time! : 5min
     Set timer : done, milestone, 09:30, 0min
-    Work : active, 25min
+    Work : 09:30, 09:55
     Timer goes off: done, milestone, 09:55, 0min
     Break time! : 5min
     Set timer : done, milestone, 10:00, 0min
-    Work : active, 25min
+    Work : 10:00, 10:25
     Timer goes off: done, milestone, 10:25, 0min
     Break time! : 5min
     Set time : done, milestone, 10:30, 0min
-    Work : active, 25min
+    Work : 10:30, 10:55
     Timer goes off: done, milestone, 10:55, 0min
-    Long Break!! : 30min
+    Long Break!! : 10:55, 11:30
 ```
 
 ::::
@@ -903,21 +918,26 @@ gantt
 
 ### Techniques for Success
 
--   Set aside 5-10 minutes at the end of the day
+```{mermaid}
+%%| echo: false
+%%| mermaid-format: png
 
--   list out 3-6 tasks to be done the following day
+%%{init: {
+  "theme": "base",
+    'themeVariables': {
+      'lineColor': 'blue'
+    }
+}}%%
 
--   order them from highest to least priority
+flowchart TD;
+    A[End of the day] ==> B[List 3-6 tasks for tomorrow];
+    B ==> C[Order list by priority];
+    C ==> D["Pick up at the first item
+    the following day"];
+    D ==> E[Finish item on list?] ==> G[Move down list!];
+    D ==> F[Need a change?] ==> G;
 
--   next day start the list
-
--   finished the list item?
-
-    -   move on
-
--   when you need to change gears
-
-    -   move on
+```
 
 # Summary {.smaller}
 

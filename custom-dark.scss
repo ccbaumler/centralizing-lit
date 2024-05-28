@@ -35,6 +35,16 @@ $mermaid-label-bg-color: $accent2 !default;
 
 
 /*-- scss:rules --*/
+.footer {
+  bottom: 10px !important;
+  //color: #58748f !important;
+}
+
+.reveal .progress {
+    top: 0 !important;
+    height: 2% !important;
+    background-color: #4C4E52//#273b50; 
+}
 
 .reveal .slide a:hover {
   text-decoration: underline;
