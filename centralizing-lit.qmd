@@ -389,7 +389,7 @@ Click your system below:
     </div>
     <div class="badge">
         <a href="https://addons.mozilla.org/en-US/firefox/addon/rss-reader-extension-inoreader/" target="_blank">
-            <img src="images/firefox_logo_2019_wikimedia.png" 
+            <img src="images/Firefox_logo_2019_wikimedia.png" 
                  alt="Get it on Firefox">
         </a>
     </div>
