@@ -254,7 +254,7 @@ Bryshal Moore
           display:block!important;
       }</style></aside>
 <p>What does a completed setup look like?</p>
-<iframe src="https://www.inoreader.com" width="150%" height="500px" style="border: none;">
+<iframe id="iframe1" src="https://www.inoreader.com" width="150%" height="500px" style="border: none;">
 </iframe>
 </section>
 <section id="overview" class="title-slide slide level1 center">
@@ -388,7 +388,7 @@ Bryshal Moore
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<iframe src="https://app.adfontesmedia.com/chart/interactive" width="150%" height="500px" style="border: none; background: #FFFFFF;">
+<iframe id="iframe2" src="https://app.adfontesmedia.com/chart/interactive" width="150%" height="500px" style="border: none; background: #FFFFFF;">
 </iframe>
 <p><span class="absolute" style="bottom: 0px; "><a href="https://bigthink.com/the-present/media-bias-chart/">Big Think Article</a></span></p>
 </section>
@@ -673,17 +673,17 @@ Bryshal Moore
           display:block!important;
       }</style></aside>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="482" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 481;"><span id="cb1-482"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
-<span id="cb1-483"><a href=""></a>  <span class="kw">let</span> userInput <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
-<span id="cb1-484"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
-<span id="cb1-485"><a href=""></a>  </span>
-<span id="cb1-486"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
-<span id="cb1-487"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
-<span id="cb1-488"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
-<span id="cb1-489"><a href=""></a>  })<span class="op">;</span></span>
-<span id="cb1-490"><a href=""></a>  </span>
-<span id="cb1-491"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
-<span id="cb1-492"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="488" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 487;"><span id="cb1-488"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb1-489"><a href=""></a>  <span class="kw">let</span> userInput <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb1-490"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
+<span id="cb1-491"><a href=""></a>  </span>
+<span id="cb1-492"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb1-493"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb1-494"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb1-495"><a href=""></a>  })<span class="op">;</span></span>
+<span id="cb1-496"><a href=""></a>  </span>
+<span id="cb1-497"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb1-498"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
 <div id="ojs-cell-1" data-nodetype="expression">
 
@@ -912,17 +912,17 @@ Bryshal Moore
 </div>
 </div></div>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="746" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 745;"><span id="cb2-746"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput2"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
-<span id="cb2-747"><a href=""></a>  <span class="kw">let</span> userInput2 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
-<span id="cb2-748"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput2<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
-<span id="cb2-749"><a href=""></a>  </span>
-<span id="cb2-750"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
-<span id="cb2-751"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
-<span id="cb2-752"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
-<span id="cb2-753"><a href=""></a>  })<span class="op">;</span></span>
-<span id="cb2-754"><a href=""></a>  </span>
-<span id="cb2-755"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText2"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
-<span id="cb2-756"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="752" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 751;"><span id="cb2-752"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput2"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb2-753"><a href=""></a>  <span class="kw">let</span> userInput2 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb2-754"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput2<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
+<span id="cb2-755"><a href=""></a>  </span>
+<span id="cb2-756"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb2-757"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb2-758"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb2-759"><a href=""></a>  })<span class="op">;</span></span>
+<span id="cb2-760"><a href=""></a>  </span>
+<span id="cb2-761"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText2"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb2-762"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
 <div id="ojs-cell-2" data-nodetype="expression">
 
@@ -967,7 +967,7 @@ Bryshal Moore
 </ul></li>
 </ul>
 </div><div class="column" style="width:70%;">
-<iframe width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter" style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
+<iframe id="iframe3" width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter" style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
 </iframe>
 </div></div>
 </section>
@@ -1007,7 +1007,7 @@ Bryshal Moore
 <div class="column" style="width:20%;">
 <p><code>h</code> or <code>?</code> for keybindings</p>
 </div><div class="column" style="width:80%;">
-<iframe width="780" height="500" src="images/hotkeys.html" title="Inoreader hotkeys"></iframe>
+<iframe id="iframe4" width="780" height="500" src="images/hotkeys.html" title="Inoreader hotkeys"></iframe>
 </div></div>
 </section>
 <section id="navigating-literature-blazingly-fast-with-keybindings-1" class="slide level2">
@@ -1039,17 +1039,17 @@ Bryshal Moore
 </div>
 </div></div>
 <div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="877" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 876;"><span id="cb3-877"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput3"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
-<span id="cb3-878"><a href=""></a>  <span class="kw">let</span> userInput3 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
-<span id="cb3-879"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput3<span class="op">.</span><span class="fu">split</span>(<span class="st">" "</span>)<span class="op">;</span></span>
-<span id="cb3-880"><a href=""></a>  </span>
-<span id="cb3-881"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
-<span id="cb3-882"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
-<span id="cb3-883"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
-<span id="cb3-884"><a href=""></a>  })<span class="op">;</span></span>
-<span id="cb3-885"><a href=""></a>  </span>
-<span id="cb3-886"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText3"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
-<span id="cb3-887"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="883" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 882;"><span id="cb3-883"><a href=""></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput3"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb3-884"><a href=""></a>  <span class="kw">let</span> userInput3 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb3-885"><a href=""></a>  <span class="kw">let</span> words <span class="op">=</span> userInput3<span class="op">.</span><span class="fu">split</span>(<span class="st">" "</span>)<span class="op">;</span></span>
+<span id="cb3-886"><a href=""></a>  </span>
+<span id="cb3-887"><a href=""></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb3-888"><a href=""></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb3-889"><a href=""></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb3-890"><a href=""></a>  })<span class="op">;</span></span>
+<span id="cb3-891"><a href=""></a>  </span>
+<span id="cb3-892"><a href=""></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText3"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb3-893"><a href=""></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
 <div id="ojs-cell-3" data-nodetype="expression">
 

@@ -46,12 +46,15 @@ Log in talk about:
 
 What does a completed setup look like?
 
-<iframe 
+```{=html}
+<iframe
+    id="iframe1"
     src="https://www.inoreader.com" 
     width="150%" 
     height="500px" 
     style="border: none;">
 </iframe>
+```
 
 # Overview
 
@@ -157,12 +160,15 @@ It is not always as heavily publisized as the NIH freeze
 
 :::
 
+```{=html}
 <iframe 
+    id="iframe2"
     src="https://app.adfontesmedia.com/chart/interactive" 
     width="150%" 
     height="500px" 
     style="border: none; background: #FFFFFF;">
 </iframe>
+```
 
 [[Big Think Article](https://bigthink.com/the-present/media-bias-chart/)]{.absolute bottom=0}
 
@@ -792,7 +798,7 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 
 ::: {.column width="70%"}
 ```{=html}
-<iframe width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter"
+<iframe id="iframe3" width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter"
     style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
 </iframe>
 ```
@@ -834,7 +840,7 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 
 ::: {.column width="80%"}
 ```{=html}
-<iframe width="780" height="500" src="images/hotkeys.html" title="Inoreader hotkeys"></iframe>
+<iframe id="iframe4" width="780" height="500" src="images/hotkeys.html" title="Inoreader hotkeys"></iframe>
 ```
 :::
 :::
