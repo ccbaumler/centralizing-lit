@@ -4,7 +4,7 @@ subtitle: "Capture Current Literature of a Scientific domain with RSS"
 format: 
   revealjs:
     theme: custom-dark.scss
-    css: timer.css
+    css: [timer.css]
     preview-links: false
     incremental: true
     chalkboard: 
@@ -32,6 +32,26 @@ execute:
   message: false
 ---
 
+## Customized Agg. of Current Scientific Literature
+
+::: {.notes}
+
+Log in talk about:
+- folder and journal feeds
+- navigate with hotkeys 
+- use `v` to load a new tab
+
+:::
+
+
+What does a completed setup look like?
+
+<iframe 
+    src="https://www.inoreader.com" 
+    width="150%" 
+    height="500px" 
+    style="border: none;">
+</iframe>
 
 # Overview
 
@@ -81,7 +101,7 @@ WoS query: ("RDF Site Summary") OR ("Really Simple Syndication") OR ("RSS FEEDS"
 
 ## RSS is a web-based aggregation tool
 
-### Background
+### Background ![](images/rss-solid.svg){width=15}
 
 ::: {.columns}
 
@@ -108,6 +128,44 @@ WoS query: ("RDF Site Summary") OR ("Really Simple Syndication") OR ("RSS FEEDS"
 
 [A self-updating scientific journal website aggregation system]{.fragment}
 
+## What is RSS good for?
+
+### Quick Write
+
+::: {.center-xy}
+
+[In one or two sentences, <br></br> ***how can RSS be applied to your scientific or scholarly work?***]{style="font-size: 2em;" .fragment}
+
+:::
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 1, seconds = 0, warn_when = 15, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE,
+                     play_sound = "audio/smb_coin.wav",
+                     id = "special_timer")
+```
+
+## Academia is impacted by politics
+
+### Background
+
+::: {.notes}
+
+It is not always as heavily publisized as the NIH freeze
+
+:::
+
+<iframe 
+    src="https://app.adfontesmedia.com/chart/interactive" 
+    width="150%" 
+    height="500px" 
+    style="border: none; background: #FFFFFF;">
+</iframe>
+
+[[Big Think Article](https://bigthink.com/the-present/media-bias-chart/)]{.absolute bottom=0}
+
 ## [An RSS aggregator will centralize all feeds across devices]{style="font-size:0.80em;"}
 
 ### Background
@@ -120,23 +178,31 @@ The day an important article is published you will be able to find it!
   - Convenient 
     - Desktop
     - Mobile
-    - Web
+    - Browser
 
 ## [Too many software options!!!]{style="font-size:0.80em;"}
 
 ### Background
 
-There are dozens of notable RSS readers. 
+::: {.notes}
 
-[All have a pay-tiered system.]{.fragment}
+The goal is not to become a poweruser!!!
 
-- I suggest Inoreader
+This serves a focused purpose and it does that well.
+
+:::
+
+[There are dozens of notable RSS readers.](https://play.google.com/store/search?q=rss+feed+app){target="_blank"}
+
+[Most have a pay-tiered system.]{.fragment}
+
+- I suggest Inoreader... currently
   
   - Most useful options at unpaid subscription level are:
     - Compatible with IOS, Andriod, and the Web
     - Organizing with folders and tags 
     - Highlighting keywords 
-    - Ability to search 
+    - Ability to search
 
 # Install and Set Up
 
@@ -150,101 +216,211 @@ There are dozens of notable RSS readers.
 
 ### Install and Set Up
 
-::: nonincremental
-1.  Go to [Inoreader](https://www.inoreader.com/){target="_blank"}
-:::
+::: {.columns}
 
-![](images/inoreader-1.png){.absolute top="400" left="200" width="600"}
+:::: {.column}
+
+::::: {.nonincremental}
+
+1.  Go to [Inoreader](https://www.inoreader.com/){target="_blank"}
+
+:::::
+
+::::
+
+:::: {.column}
+
+[![](images/go_to_inoreader.svg){.lightbox}]{.absolute top="400" left="200" width="500"}
+
+::::
+
+:::
 
 ## Create an account {data-menu-title="Create an account: Step 2"}
 
 ### Install and Set Up
 
-::: nonincremental
-1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
-2.  Select `Sign-in`
-:::
+::: {.columns}
 
-![](images/inoreader-2.png){.absolute top="400" left="200" width="600"}
+:::: {.column}
+
+::::: {.nonincremental}
+
+1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
+2.  Select `Create account`
+
+:::::
+
+::::
+
+:::: {.column}
+
+[![](images/create_account.svg){.lightbox}]{.absolute top="400" left="200" width="500"}
+
+::::
+
+:::
 
 ## Create an account {data-menu-title="Create an account: Step 3"}
 
 ### Install and Set Up
 
-::: nonincremental
+::: {.columns}
+
+:::: {column}
+
+::::: {.nonincremental}
+
 1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
-2.  [Select `Sign-in`]{.op}
-3.  Select `create a free account`
-:::
-
-![](images/inoreader-3.png){.absolute top="400" left="200" width="600"}
-
-## Create an account {data-menu-title="Create an account: Step 4"}
-
-### Install and Set Up
-
-::: nonincremental
-1.  [Go to [Inoreader](https://www.inoreader.com/)]{.op}
-2.  [Select `Sign-in`]{.op}
-3.  [Select `create a free account`]{.op}
+2.  [Select `Create account`]{.op}
+3.  Fill in email and password
 4.  Select `Create account`
+
+:::::
+
+::::
+
+:::: {.column}
+
+[![](images/create_account_popup.svg){.lightbox}]{.absolute top="400" left="200" width="500"}
+
+::::
+
 :::
 
-![](images/inoreader-5.png){.absolute top="400" left="200" width="600"}
-
-## Optionally download the mobile app
+## Optionally, download the mobile app
 
 ### Install and Set Up
+
+::: {.notes}
+
+for local image as badges
+
+:::
 
 - Benefits
   - Portability
   - Interoperability
   - Make doom scrolling productive
 
-[Click your operating system below:]{.fragment}
+[Click your system below:]{.fragment}
 
+```{=html}
 <style>
-.container{
+.badge-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
-.col{
+
+.badge-container .badge {
     flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.badge-container .badge img {
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.badge-container .badge img:hover {
+    transform: scale(1.25);
 }
 </style>
 
-<div class="container">
+<div class="badge-container">
 
-<div class="col">
-  <svg width="500" height="175">
+  <div class="badge">
     <a href="https://play.google.com/store/apps/details?id=com.innologica.inoreader&pcampaignid=web_share" target="_blank">
-      <rect x="10" y="10" width="480" height="160" rx="10" ry="10" fill="blue" />
-      <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">Android</text>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+           alt="Google Play Button" 
+           style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
     </a>
-  </svg>
-</div>
-
-<div class="col">
-  <svg width="500" height="175">
+  </div>
+  
+  <div class="badge">
     <a href="https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414" target="_blank">
-      <rect x="10" y="10" width="480" height="160" rx="10" ry="10" fill="red" />
-      <text x="50%" y="50%" text-anchor="middle" fill="white" stroke="white" stroke-width="1">IOS</text>
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
+           alt="Download on the App Store"
+           style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
     </a>
-  </svg>
-</div>
+  </div>
 
 </div>
+```
+
+## Optionally, install a browser extension
+
+### Install and Set Up
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 5, seconds = 0, warn_when = 15, 
+                     right = "0%", top = "10%",
+                     blink_colon = TRUE,
+                     play_sound = "audio/smb_coin.wav",
+                     id = "special_timer")
+```
+
+::: {.nonincremental}
+
+- Benefits
+  - Portability
+  - Interoperability
+  - Make doom scrolling productive
+
+:::
+
+Click your system below:
+
+
+```{=html}
+<div class="badge-container">
+    <div class="badge">
+        <a href="https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah" target="_blank">
+            <img src="images/Google_Chrome_icon_(February_2022)_wikimedia.png" 
+                 alt="Get it on Google Chrome">
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/rss-reader-extension-inoreader/" target="_blank">
+            <img src="images/firefox_logo_2019_wikimedia.png" 
+                 alt="Get it on Firefox">
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://microsoftedge.microsoft.com/addons/detail/rss-reader-extension-by-/lbjfhdjlblncekgomhadnnpampcahhal" target="_blank">
+            <img src="images/Microsoft_Edge_logo_wikimedia.svg" 
+                 alt="Get it on Microsoft Edge">
+        </a>
+    </div>
+</div>
+```
+
 
 ## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 1"}
 
 ### Install and Set Up
 
-::: columns
+::: {.columns}
+
 ::: {.column width="45%"}
+
+:::: {.nonincremental}
+
 1.  Select `Add new`
+
+::::
+
 :::
 
 ::: {.column width="55%"}
-![](images/feed-1.gif){.absolute top="125" left="475" width="700"}
+[![](images/add_feed.png){.lightbox}]{.absolute top="125" left="475" width="700"}
 :::
 :::
 
@@ -256,12 +432,12 @@ There are dozens of notable RSS readers.
 ::: {.column width="45%"}
 ::: nonincremental
 1.  [Select `Add new`]{.op}
-2.  Select `Feeds`
+2.  Search a topic, website, or journal
 :::
 :::
 
 ::: {.column width="55%"}
-![](images/feed-2.gif){.absolute top="125" left="475" width="700"}
+[![](images/rss_search.png){.lightbox}]{.absolute top="125" left="475" width="700"}
 :::
 :::
 
@@ -273,41 +449,32 @@ There are dozens of notable RSS readers.
 ::: {.column width="45%"}
 ::: nonincremental
 1.  [Select `Add new`]{.op}
-2.  [Select `Feeds`]{.op}
-3.  Search a topic, website, or journal
+2.  [Search a topic, website, or journal]{.op}
+3.  Select `Follow` from the feed suggestions
 :::
 :::
 
 ::: {.column width="55%"}
-![](images/feed-3.gif){.absolute top="125" left="475" width="700"}
+[![](images/follow_related.png){.lightbox}]{.absolute top="125" left="475" width="700"}
 :::
 :::
 
-## Quick guide to curate feeds in Inoreader {data-menu-title="Curate feeds: Step 4"}
-
-### Install and Set Up
-
-::: columns
-::: {.column width="45%"}
-::: nonincremental
-1.  [Select `Add new`]{.op}
-2.  [Select `Feeds`]{.op}
-3.  [Search a topic, website, or journal]{.op}
-4.  Select `Follow` from the feed suggestions
-:::
-:::
-
-::: {.column width="65%"}
-![](images/feed-4-123.gif){.absolute top="125" left="475" width="700"}
-:::
-:::
-
-## Gather feeds to fit your research interests
+## Gather feeds to fit your research interests {#Gather_Feeds}
 
 ### Install and Set Up
 
 ::: notes
+
+go to science.com and scroll to the bottom
+
+click the rss symbol
+
+copy url of rss xml site and paste into inoreader
+
+wsj:thejournal (rss symbol)
+
 Use nature (rss feed), science (rss symbol), and biorxiv (specific set up) as examples
+
 :::
 
 ```{ojs}
@@ -315,7 +482,7 @@ Use nature (rss feed), science (rss symbol), and biorxiv (specific set up) as ex
 //| output: false
 document.getElementById("userInput").addEventListener("input", function() {
   let userInput = this.value;
-  let words = userInput.split(" ");
+  let words = userInput.split("-");
   
   let output = "";
   words.forEach(word => {
@@ -333,55 +500,47 @@ countdown::countdown(minutes = 8, seconds = 0, warn_when = 120,
                      blink_colon = TRUE, id = "special_timer")
 ```
 
-::: columns
-::: {.column width="37.5%"}
--   Journal options
+::: {.columns}
+
+:::: {.column width="60%"}
+
+-   Journal options ![](images/rss-solid.svg){width=15}
 
     -   [Wiki of Journals](https://en.wikipedia.org/wiki/List_of_scientific_journals){target="_blank"}
-    -   [The NIH Library](https://www.nihlibrary.nih.gov/){target="_blank"} + click `Journals`
-    -   ChatGPT: "what are the best journals for [bioinformatics] research?"
+    -   [Scopus Journals](https://www.scopus.com/sources){target="_blank"}
+    -   [The NIH Library of Journals](https://onesearch.nihlibrary.ors.nih.gov/discovery/jsearch?vid=01NIH_INST%3ANIH&lang=en){target="_blank"}
+    -   [ChatGPT](https://chatgpt.com): "what are the best journals for [bioinformatics] research?"
+    - [Find RSS Links on a Website Supp.](#Finding_RSS_Links)
     
-:::
+::::
 
-::: {.column width="37.5%"}
--   Finding the RSS link
+:::: {.column width="40%"}
 
-    -   [RSS Validator](https://www.rssboard.org/rss-validator){target="_blank"}
-    -   Navigate to the website:
-        -   Right click page
-        -   Select `Page Source`
-        -   Press `ctrl+f` or `cmd+f`
-        -   Type `rss`
-    -   [No RSS found?](https://openrss.org/){target="_blank"}
-
-:::
-
-::: {.column width="25%"}
-::: interactive-textbox
+::::: interactive-textbox
 <input type="text" id="userInput" placeholder="Type some ideas...">
 
 <p id="outputText">
 
 </p>
-:::
-:::
+:::::
+::::
 :::
 
 ## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 1"}
 
 ### Install and Set Up
 
-Create
+Create new folder
 
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  Select `Add new`
+1.  Select :file_folder: icon
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/folder-1.gif){.absolute top="200" left="475" width="700"}
+[![](images/folder-icon.png){.lightbox}]{.absolute top="125" left="475" width="700"}
 :::
 :::
 
@@ -389,18 +548,18 @@ Create
 
 ### Install and Set Up
 
-Create
+Create new folder
 
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  [Select `Add new`]{.op}
-2.  Select `Folders`
+1.  [Select :file_folder: icon]{.op}
+2.  Write `Folder name`
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/folder-2.gif){.absolute top="200" left="475" width="700"}
+[![](images/create-folder.png){.lightbox}]{.absolute top="125" left="575" width="500"}
 :::
 :::
 
@@ -408,19 +567,19 @@ Create
 
 ### Install and Set Up
 
-Create
+Create new folder
 
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  [Select `Add new`]{.op}
-2.  [Select `Folders`]{.op}
-3.  Name `New Folder`
+1.  [Select :file_folder: icon]{.op}
+2.  [Write `Folder name`]{.op}
+3.  Begin searching for feeds
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
+[![](images/create-add-folder.png){.lightbox}]{.absolute top="125" left="575" width="500"}
 :::
 :::
 
@@ -428,42 +587,20 @@ Create
 
 ### Install and Set Up
 
-Create
+Create new folder
 
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  [Select `Add new`]{.op}
-2.  [Select `Folders`]{.op}
-3.  [Name `New Folder`]{.op}
-4.  Search feeds
+1.  [Select :file_folder: icon]{.op}
+2.  [Write `Folder name`]{.op}
+3.  [Begin searching for feeds]{.op}
+4.  Select feeds to add
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
-:::
-:::
-
-## Organize feeds by creating folders {data-menu-title="Organize with new folders: Step 5"}
-
-### Install and Set Up
-
-Create
-
-::: columns
-::: {.column width="45%"}
-::: nonincremental
-1.  [Select `Add new`]{.op}
-2.  [Select `Folders`]{.op}
-3.  [Name `New Folder`]{.op}
-4.  [Search feeds]{.op}
-5.  Select feeds to add
-:::
-:::
-
-::: {.column width="65%"}
-![](images/folder-3.gif){.absolute top="200" left="475" width="700"}
+[![](images/create-add-folder.png){.lightbox}]{.absolute top="125" left="575" width="500"}
 :::
 :::
 
@@ -476,12 +613,12 @@ Add to existing
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  Select :gear:
+1.  Select :gear: icon
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/addtofolder-1.gif){.absolute top="200" left="475" width="700"}
+[![](images/folder-icon.png){.lightbox}]{.absolute top="100" left="475" width="700"}
 :::
 :::
 
@@ -494,13 +631,13 @@ Add to existing
 ::: columns
 ::: {.column width="45%"}
 ::: nonincremental
-1.  [Select :gear:]{.op}
+1.  [Select :gear: icon]{.op}
 2.  Select folders dropdown
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/addtofolder-2.gif){.absolute top="200" left="475" width="700"}
+[![](images/feed-content.png){.lightbox}]{.absolute top="200" left="475" width="700"}
 :::
 :::
 
@@ -520,7 +657,7 @@ Add to existing
 :::
 
 ::: {.column width="65%"}
-![](images/addtofolder-2.gif){.absolute top="200" left="475" width="700"}
+[![](images/without-folders.png){.lightbox}]{.absolute top="200" left="475" width="700"}
 :::
 :::
 
@@ -541,7 +678,7 @@ Add to existing
 :::
 
 ::: {.column width="65%"}
-![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
+[![](images/add-to-new-old.png){.lightbox}]{.absolute top="200" left="475" width="700"}
 :::
 :::
 
@@ -558,35 +695,12 @@ Add to existing
 2.  [Select folders dropdown]{.op}
 3.  [Select `Without folder`]{.op}
 4.  [Select feeds]{.op}
-5.  Select `with selected` dropdown
+5.  Select option from dropdown
 :::
 :::
 
 ::: {.column width="65%"}
-![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
-:::
-:::
-
-## Organize feeds by adding to existing folders {data-menu-title="Adding to existing folders: Step 6"}
-
-### Install and Set Up
-
-Add to existing
-
-::: columns
-::: {.column width="45%"}
-::: nonincremental
-1.  [Select :gear:]{.op}
-2.  [Select folders dropdown]{.op}
-3.  [Select `Without folder`]{.op}
-4.  [Select feeds]{.op}
-5.  [Select `with selected` dropdown]{.op}
-6.  Add to existing folder
-:::
-:::
-
-::: {.column width="65%"}
-![](images/addtofolder-3.gif){.absolute top="200" left="475" width="700"}
+[![](images/add-to-new-old.png){.lightbox}]{.absolute top="200" left="475" width="700"}
 :::
 :::
 
@@ -605,10 +719,15 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 ::: {.column width="75%"}
 -   Consider grouping journals categories:
 
-    -   Broad, high-impact factor
-    -   Topics
-    -   Time span they publish
-    -   Preprints
+    -   Broad 
+        - interdisciplinary, high-impact factor
+    -   Topics 
+        - Molecular Biology, Genetics, Bioinformatics 
+    -   Time span they publish or you want to check
+        - Continuous, Weekly, Monthly, Quarterly, Annually
+        - ["Nature is a weekly international journal"](https://www.nature.com/nature/journal-information){target="_blank"}
+    -   Access
+        - Open access, Publisher, Preprints
 :::
 
 ::: {.column width="25%"}
@@ -627,7 +746,7 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 //| output: false
 document.getElementById("userInput2").addEventListener("input", function() {
   let userInput2 = this.value;
-  let words = userInput2.split(" ");
+  let words = userInput2.split("-");
   
   let output = "";
   words.forEach(word => {
@@ -654,6 +773,7 @@ document.getElementById("userInput2").addEventListener("input", function() {
 
 ```{r}
 #| echo: false
+
 countdown::countdown(minutes = 5, seconds = 0, warn_when = 120, 
                      right = "0%", top = "10%",
                      blink_colon = TRUE, id = "special_timer")
@@ -661,17 +781,20 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 
 ::: columns
 ::: {.column width="30%"}
-[`AUTOMATION`]{.smaller}
 
--   [Assign color to keywords]{.smaller}
-    -   [**Trouble? Try asking ChatGPT for a list:**]{.smaller}
-        -   [What are keywords for \[microbial metagenomic metabolomic metabolite cancer\] research?]{.smaller}
-        -   [Please expand this list further. (Generic or with direction...)]{.smaller}
+[Assign color to keywords]{.smaller}
+
+-   [**Trouble? Try asking ChatGPT for a list:**]{.smaller}
+    -   [What are keywords for \[microbial metagenomic metabolomic metabolite cancer\] research?]{.smaller}
+    -   [Please expand this list further. (Generic or with direction...)]{.smaller}
+
 :::
 
 ::: {.column width="70%"}
 ```{=html}
-<iframe width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter"></iframe>
+<iframe width="780" height="500" src="images/highlighters.html" title="Inoreader highlighter"
+    style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
+</iframe>
 ```
 :::
 :::
@@ -731,11 +854,11 @@ countdown::countdown(minutes = 5, seconds = 0, warn_when = 120,
 ::: {.column width="75%"}
 Below are some suggestions to speed-up your usage:
 
--   [`n`, `p` or with `shift`: navigate the articles or side-bar]{.smaller}
--   [`j`, `k` : navigate the Article view or `space`: to scroll through the abstract]{.smaller}
--   [`m`, `f`: mark the articles as read or read later]{.smaller}
--   [`1`, `3`: change views from list to cards]{.smaller}
--   **What are some you liked using?**
+-   `n`, `p` or with `shift`: navigate the articles or side-bar
+-   `j`, `k` : navigate the Article view or `space`: to scroll through the abstract
+-   `m`, `f`: mark the articles as read or read later
+-   `1`, `3`: change views from list to cards
+-   use `v` to load a new tab or `w` to load the content
 :::
 
 ::: {.column width="25%"}
@@ -773,20 +896,31 @@ document.getElementById("userInput3").addEventListener("input", function() {
 ::: {.column width="50%"}
 Located at:
 
--   Upper right-hand :mag:
--   `Add new` [`r knitr::asis_output("\U1F896")`]{.arrow} `Articles`
+-   Upper right [`r knitr::asis_output("\U1F896")`]{.arrow} :mag:
+-   Left-hand [`r knitr::asis_output("\U1F896")`]{.arrow} :mag:
+-   `Add feed` [`r knitr::asis_output("\U1F896")`]{.arrow} `Monitor feed`
 :::
 
 ::: {.column width="50%"}
 Straight-forward operation:
 
 -   Search articles in feeds, folder, or tags
+
+:::: {.fragment}
+
+::::: {.nonincremental}
+
 -   Use boolean operators
     -   `AND`
     -   `OR`
     -   `NOT`
     -   `""`
     -   `()`
+
+:::::
+
+::::    
+
 :::
 :::
 
@@ -807,9 +941,10 @@ These operators are useful for making searches more precise and tailored to your
 # Techniques for Success
 
 ::: {.nonincremental}
+
 - Quickly sort articles from feeds
 - Time management and blocking
-- Stay on task throughout time
+
 :::
 
 ## The 80:20 method is ideal to filter papers
@@ -817,42 +952,49 @@ These operators are useful for making searches more precise and tailored to your
 ### Techniques for Success
 
 ::: columns
-::: {.column width="35%"}
+::: {.column width="40%"}
 - 80:20? 
   - Remove 20% each step
   
 - Remember IMRaD?
-  - RSS reader/web until "ID"
-  - Import into reference manager
+  - RSS reader focus on Title and Abstract! `f`
+  - Import `f` into reference manager
   - "**[I]{.underline}**'**[D]{.underline}** **[M]{.underline}**embe**[R]{.underline}**" better
 :::
 
-::: {.column width="65%" .absolute top=100 right=0}
+::: {.column width="60%" .absolute top=90 right=0}
+
+[![](images/mermaid-flowchart.svg)]{.absolute top="100" right="0" width="500"}
+
 ```{mermaid}
 %%| echo: false
-%%| mermaid-format: png
+%%| eval: false
 
-%%{init: {
-  "theme": "base",
-  'themeVariables': {
-    'lineColor': 'blue'
+%%{
+  init: {
+    "theme": "vapor",
+    'themeVariables': {
+      'lineColor': '#00ebb4'
+    }
   }
-}}%%
+}%%
 
 flowchart TD;
     A[Read the title] ==>|Interesting?| B[Skim the abstract];
-    A ==Not interesting?==> C[Discard];
-    B ==Still interesting?==> D[Skim the section headers and figures];
+    A ==Not interesting?==> C[Discard or Cite];
+    B ==Still interesting?==> D[Skim the headers and figures];
     B ==Second thoughts?==> C;
     D ==A worthwhile read?==> E[Read the Intro and Discussion!];
     D ==Reconsidering?==> C;
-    E ==Something novel?==> F[Study the article by reviewing the Methods and Results];
+    E ==Something novel?==> F[Study the Methods and Results];
     E ==Meh?==> C;
     F ==Good stuff cited?==> G[Dig into the references]
 
-%%    linkStyle 0,1,2,3,4,5,6,7,8 color:Orange,stroke:blue;
+    linkStyle default color:red;
 ```
+
 :::
+
 :::
 
 ::: notes
@@ -865,29 +1007,36 @@ https://stackoverflow.com/questions/63082398/change-font-of-text-on-links-in-gra
 
 ### Techniques for Success
 
-::: columns
-
-:::: {.column width="25%"}
+![](images/mermaid-gantt.png){.lightbox width=120%}
 
 - Consider time blocking
   - When do you work best?
   - 3-2-1 method
+  
 
-::::
-
-:::: {.column width="75%"}
 
 ```{mermaid}
 %%| echo: false
-%%| mermaid-format: png
+%%| eval: false
 
 %%{init: {
   "theme": "base",
-  "themeCSS": ".sectionTitle:not([font-size]), .sectionTitle[font-size] { font-size:16px; }, .taskText:not([font-size]), .taskText[font-size] { font-size:15px; }, .taskTextOutsideRight:not([font-size]), .taskTextOutsideRight[font-size] { font-size:16px; }"
+  "themeVariables": {
+    "primaryColor": "#ffb11f",
+    "primaryTextColor": "#eb00c0",
+    "primaryBorderColor": "#005F87",
+    "secondaryColor": "#FFD700",
+    "secondaryTextColor": "#000000",
+    "tertiaryColor": "#ffa58a",
+    "tertiaryTextColor": "#1fa5ff",
+    "taskTextLightColor": "#eb00c0",
+    "taskTextDarkColor": "#ff1"
+  },
+"themeCSS": ".titleText { font-size:24px; font-weight:bold; }, .sectionTitle:not([font-size]), .sectionTitle[font-size] { font-size:20px; font-weight:bold; }, .taskText:not([font-size]), .taskText[font-size] { font-size:15px; font-weight:bold; }, .taskTextOutsideRight:not([font-size]), .taskTextOutsideRight[font-size] { font-size:16px; font-weight:bold; }"
 }}%%
 
 gantt 
-    title The Pomodora Method: One Set
+    title The Pomodoro Method: One Set
     dateFormat hh:mm
     axisFormat %H%M
     
@@ -910,35 +1059,6 @@ gantt
     Long Break!! : 10:55, 11:30
 ```
 
-::::
-
-:::
-
-## Achievable goals lead to accomplishments
-
-### Techniques for Success
-
-```{mermaid}
-%%| echo: false
-%%| mermaid-format: png
-
-%%{init: {
-  "theme": "base",
-    'themeVariables': {
-      'lineColor': 'blue'
-    }
-}}%%
-
-flowchart TD;
-    A[End of the day] ==> B[List 3-6 tasks for tomorrow];
-    B ==> C[Order list by priority];
-    C ==> D["Pick up at the first item
-    the following day"];
-    D ==> E[Finish item on list?] ==> G[Move down list!];
-    D ==> F[Need a change?] ==> G;
-
-```
-
 # Summary {.smaller}
 
 You have learned:
@@ -955,22 +1075,57 @@ You have learned:
 - Skills to rapidly consume literature
   - Quickly sort articles from feeds
   - Time management and blocking
-  - Stay on task throughout time
 
 :::
 
 ## Acknowledgments
 
-### "The next best thing to being wise oneself is to live in a circle of those who are."<br>C.S. Lewis
+### "The next best thing to being wise oneself is to live in a circle of those who are." :bust_in_silhouette: C.S. Lewis
 
-::: nonincremental
+::: {.columns}
+
+:::: {.column}
+
+::::: {.nonincremental}
+
 -   C. Titus Brown
 -   Pamela Reynolds
 -   Bryshal Moore
 -   Luiz Irber
--   DIB Lab members
--   DataLab members
+-   The DataLab
+-   Professors For The Future
+-   NSF GRFP
+-   [IMSD]{.hovertext data-hover="For extended training and mentorship. Grant code is T32 GM135741 (NIH T32 IMSD Program)"}
+
+:::::
+
+::::
+
+:::: {.column}
+
+![](images/PFTF.png)
+
+![](images/IMSD logo 1 cropped.png)
+
+::::
+
 :::
+
+# Supplementary
+
+## Finding the RSS link to a website {#Finding_RSS_Links}
+
+### [Click Here to Go Back to Gathering Feeds](#Gather_Feeds)
+
+-   [RSS Validator](https://www.rssboard.org/rss-validator){target="_blank"}
+-   Navigate to the website:
+    -   Right click page
+    -   Select `Page Source`
+    -   Press `ctrl+f` or `cmd+f`
+    -   Type `rss`
+-   [No RSS found?](https://openrss.org/){target="_blank"}
+
+
 
 ```{css, echo=FALSE}
 .interactive-textbox {
